@@ -227,8 +227,8 @@ Electronics and Telecommunication Engineering
 
 Interested in Embedded Systems, IoT, Cloud Computing, and AWS-based solutions.
 
-- GitHub: [Your GitHub Profile URL](https://github.com/chaitanyapatil005)
-- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/chaitanya-patil-7a922a30a/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bn2ij6XMwQtuoJJyeXlH3LA%3D%3D)
+- GitHub: [Chaitanya GitHub Profile ](https://github.com/chaitanyapatil005)
+- LinkedIn: [Chaitanya LinkedIn Profile](https://www.linkedin.com/in/chaitanya-patil-7a922a30a/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bn2ij6XMwQtuoJJyeXlH3LA%3D%3D)
 
 ---
 
