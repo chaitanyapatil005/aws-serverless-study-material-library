@@ -1,0 +1,49 @@
+### 4. Update the Website
+In `website/index.html`, replace:
+```js
+const API_URL = "https://YOUR_API_GATEWAY_URL/contact";
+```
+with your actual API Gateway URL.
+---
+### 5. Host the Website
+**Option A — GitHub Pages (Free)**
+1. Push this repo to GitHub
+2. Go to **Settings → Pages → Source → main branch → /website folder**
+**Option B — AWS S3 Static Hosting**
+1. Create an S3 bucket with public access
+2. Enable **Static website hosting**
+3. Upload `website/index.html`
+---
+## 🐙 Push to GitHub
+```bash
+git init
+git add .
+git commit -m "Initial commit: contact form app"
+git remote add origin https://github.com/YOUR_USERNAME/contact-form-app.git
+git branch -M main
+git push -u origin main
+```
+---
+## ✅ IAM Policy for Lambda
+Attach this inline policy to the Lambda execution role:
+```json
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": "ses:SendEmail",
+      "Resource": "*"
+    }
+  ]
+}
+```
+---
+## 🧪 Test the Lambda
+Use this test event in the Lambda console:
+```json
+{
+  "httpMethod": "POST",
+  "body": "{\"name\":\"John Doe\",\"email\":\"john@example.com\",\"subject\":\"Test\",\"message\":\"Hello!\"}"
+}
+```
